@@ -44,13 +44,11 @@ public class Grafo {
     }
 
     public void seeVertices(){
-        System.out.println("\n");
         for(Relacionamento r: arestas){
-            System.out.println("---------------------------");
+            System.out.println("\n---------------------------");
             System.out.println(r.getP1().getNome() + " <----"
                     + r.getPeso() + "----> " + r.getP2().getNome());
             System.out.println("---------------------------");
         }
-        System.out.println("\n");
     }
 }
